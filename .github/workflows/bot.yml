@@ -26,5 +26,5 @@ jobs:
 
     - name: Ejecutar el script
       run: |
-      cd trendy_monitor
-      python trendy_monitor.py
+        cd trendy_monitor 
+        python trendy_monitor.py
