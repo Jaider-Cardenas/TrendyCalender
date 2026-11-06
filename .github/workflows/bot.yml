@@ -25,4 +25,4 @@ jobs:
         # (Añade aquí otras librerías si las usas)
 
     - name: Ejecutar el script
-      run: python script.py
+      run: python trendy_monitor.py
