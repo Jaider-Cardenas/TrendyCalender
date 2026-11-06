@@ -1,0 +1,25 @@
+﻿================================================================================
+FECHA Y HORA: 2026-11-06 12:05:04
+TIPO DE ALERTA: INICIO DE MONITOREO Y LINEA BASE
+--------------------------------------------------------------------------------
+Inicio formal del monitoreo de catalogo en 6 bloques [0 a 299].
+Total de productos en el catalogo inicial: 298 productos registrados.
+Productos con palabras clave detectados inicialmente: 1.
+
+Productos existentes con 'adviento' o 'wonderland':
+  * ID 566: Iluminador Wonderland Glow Ref WGT1652 (Precio: $20000.0, Stock: 176)
+================================================================================
+
+================================================================================
+FECHA Y HORA: 2026-11-06 12:05:04
+TIPO DE ALERTA: NUEVO PRODUCTO DE ADVIENTO / WONDERLAND DETECTADO
+--------------------------------------------------------------------------------
+Se detectaron 1 producto(s) nuevos con palabras clave de Adviento / Wonderland:
+
+* ID: 566 | Nombre: Iluminador Wonderland Glow Ref WGT1652
+  Palabras clave: wonderland
+  Precio: $20000.0 | Stock: 176
+  Enlace: https://www.maquillajetrendyshop.com/iluminador-wonderland-glow-ref-wgt1652/p
+
+================================================================================
+

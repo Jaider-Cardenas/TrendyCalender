@@ -1,0 +1,54 @@
+﻿[2026-11-06 12:03:55] INFO: ===========================================================================
+[2026-11-06 12:03:55] INFO: INICIANDO REVISION COMPLETA DEL CATALOGO TRENDY SHOP - 2026-11-06 12:03:55
+[2026-11-06 12:03:55] INFO: Revisando 6 bloques de productos [0 al 299]...
+[2026-11-06 12:03:55] INFO: ===========================================================================
+[2026-11-06 12:03:55] INFO: [1/6] Consultando: https://www.maquillajetrendyshop.com/api/catalog_system/pub/products/search?_from=0&_to=49
+[2026-11-06 12:03:58] ERROR: Error en bloque 1: No se puede sobrescribir la variable PID porque es de solo lectura o constante.
+[2026-11-06 12:03:58] INFO: [2/6] Consultando: https://www.maquillajetrendyshop.com/api/catalog_system/pub/products/search?_from=50&_to=99
+[2026-11-06 12:03:59] ERROR: Error en bloque 2: No se puede sobrescribir la variable PID porque es de solo lectura o constante.
+[2026-11-06 12:03:59] INFO: [3/6] Consultando: https://www.maquillajetrendyshop.com/api/catalog_system/pub/products/search?_from=100&_to=149
+[2026-11-06 12:04:00] ERROR: Error en bloque 3: No se puede sobrescribir la variable PID porque es de solo lectura o constante.
+[2026-11-06 12:04:00] INFO: [4/6] Consultando: https://www.maquillajetrendyshop.com/api/catalog_system/pub/products/search?_from=150&_to=199
+[2026-11-06 12:04:01] ERROR: Error en bloque 4: No se puede sobrescribir la variable PID porque es de solo lectura o constante.
+[2026-11-06 12:04:01] INFO: [5/6] Consultando: https://www.maquillajetrendyshop.com/api/catalog_system/pub/products/search?_from=200&_to=249
+[2026-11-06 12:04:02] ERROR: Error en bloque 5: No se puede sobrescribir la variable PID porque es de solo lectura o constante.
+[2026-11-06 12:04:03] INFO: [6/6] Consultando: https://www.maquillajetrendyshop.com/api/catalog_system/pub/products/search?_from=250&_to=299
+[2026-11-06 12:04:03] ERROR: Error en bloque 6: No se puede sobrescribir la variable PID porque es de solo lectura o constante.
+[2026-11-06 12:04:04] INFO: Total recibidos: 298 | Productos unicos consolidados: 0
+[2026-11-06 12:04:04] INFO: Linea base registrada: 0 productos almacenados.
+[2026-11-06 12:04:04] INFO: Alerta registrada en alertas_trendy.txt.
+[2026-11-06 12:04:04] INFO: Producto 1016 consultado mediante endpoint directo (no estaba en el rango 0..299).
+[2026-11-06 12:04:04] INFO: Primer registro guardado para Producto 1016 ('Unidad De Prueba Ecommerce').
+[2026-11-06 12:04:04] INFO: Valores iniciales: Precio=$800.0 | Stock=0 | Disponible=False
+[2026-11-06 12:04:04] INFO: Fin de la revision. Catalogo y estado guardados con exito.
+[2026-11-06 12:04:51] INFO: ===========================================================================
+[2026-11-06 12:04:51] INFO: INICIANDO REVISION COMPLETA DEL CATALOGO TRENDY SHOP - 2026-11-06 12:04:51
+[2026-11-06 12:04:51] INFO: Revisando 6 bloques de productos [0 al 299]...
+[2026-11-06 12:04:51] INFO: ===========================================================================
+[2026-11-06 12:04:51] INFO: [1/6] Consultando: https://www.maquillajetrendyshop.com/api/catalog_system/pub/products/search?_from=0&_to=49
+[2026-11-06 12:04:54] INFO: [2/6] Consultando: https://www.maquillajetrendyshop.com/api/catalog_system/pub/products/search?_from=50&_to=99
+[2026-11-06 12:04:56] INFO: [3/6] Consultando: https://www.maquillajetrendyshop.com/api/catalog_system/pub/products/search?_from=100&_to=149
+[2026-11-06 12:04:58] INFO: [4/6] Consultando: https://www.maquillajetrendyshop.com/api/catalog_system/pub/products/search?_from=150&_to=199
+[2026-11-06 12:05:00] INFO: [5/6] Consultando: https://www.maquillajetrendyshop.com/api/catalog_system/pub/products/search?_from=200&_to=249
+[2026-11-06 12:05:01] INFO: [6/6] Consultando: https://www.maquillajetrendyshop.com/api/catalog_system/pub/products/search?_from=250&_to=299
+[2026-11-06 12:05:04] INFO: Total recibidos: 298 | Productos unicos consolidados: 298
+[2026-11-06 12:05:04] INFO: Linea base registrada: 298 productos almacenados.
+[2026-11-06 12:05:04] INFO: Alerta registrada en alertas_trendy.txt.
+[2026-11-06 12:05:04] WARN: NUEVO PRODUCTO DE ADVIENTO/WONDERLAND DETECTADO!
+[2026-11-06 12:05:04] INFO: Alerta registrada en alertas_trendy.txt.
+[2026-11-06 12:05:04] INFO: Primer registro guardado para Producto 1016 ('Unidad De Prueba Ecommerce').
+[2026-11-06 12:05:04] INFO: Valores iniciales: Precio=$800.0 | Stock=0 | Disponible=False
+[2026-11-06 12:05:04] INFO: Fin de la revision. Catalogo y estado guardados con exito.
+[2026-11-06 12:05:17] INFO: ===========================================================================
+[2026-11-06 12:05:17] INFO: INICIANDO REVISION COMPLETA DEL CATALOGO TRENDY SHOP - 2026-11-06 12:05:17
+[2026-11-06 12:05:17] INFO: Revisando 6 bloques de productos [0 al 299]...
+[2026-11-06 12:05:17] INFO: ===========================================================================
+[2026-11-06 12:05:17] INFO: [1/6] Consultando: https://www.maquillajetrendyshop.com/api/catalog_system/pub/products/search?_from=0&_to=49
+[2026-11-06 12:05:19] INFO: [2/6] Consultando: https://www.maquillajetrendyshop.com/api/catalog_system/pub/products/search?_from=50&_to=99
+[2026-11-06 12:05:20] INFO: [3/6] Consultando: https://www.maquillajetrendyshop.com/api/catalog_system/pub/products/search?_from=100&_to=149
+[2026-11-06 12:05:21] INFO: [4/6] Consultando: https://www.maquillajetrendyshop.com/api/catalog_system/pub/products/search?_from=150&_to=199
+[2026-11-06 12:05:22] INFO: [5/6] Consultando: https://www.maquillajetrendyshop.com/api/catalog_system/pub/products/search?_from=200&_to=249
+[2026-11-06 12:05:23] INFO: [6/6] Consultando: https://www.maquillajetrendyshop.com/api/catalog_system/pub/products/search?_from=250&_to=299
+[2026-11-06 12:05:26] INFO: Total recibidos: 298 | Productos unicos consolidados: 298
+[2026-11-06 12:05:27] INFO: Producto 1016 sin modificaciones (Precio: $800.0, Stock: 0, Disponible: False).
+[2026-11-06 12:05:27] INFO: Fin de la revision. Catalogo y estado guardados con exito.

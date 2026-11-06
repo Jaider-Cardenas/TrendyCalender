@@ -3,24 +3,35 @@ title Trendy Shop Monitor
 cd /d "%~dp0"
 
 echo ===================================================
-echo     Iniciando Trendy Shop Monitor (Adviento / 1016)
+echo     Trendy Shop Monitor (Adviento / 1016 / 0..299)
 echo ===================================================
 echo.
 
-:: Verificar si python esta instalado
+:: 1. Si existe Python, ejecutar con Python
 where python >nul 2>nul
-if %errorlevel% neq 0 (
-    echo [ERROR] No se encontro Python en el sistema.
-    echo Por favor instala Python desde https://www.python.org o con:
-    echo winget install Python.Python.3.12
-    pause
-    exit /b 1
+if %errorlevel% equ 0 (
+    echo [*] Ejecutando con Python...
+    python trendy_monitor.py %*
+    goto end
 )
 
-:: Ejecutar el script (agrega --once si quieres que corra solo una vez y salga)
-python trendy_monitor.py %*
+:: 2. Si existe Node.js, ejecutar con Node
+where node >nul 2>nul
+if %errorlevel% equ 0 (
+    echo [*] Ejecutando con Node.js...
+    node trendy_monitor.js %*
+    goto end
+)
 
+:: 3. Si no tiene Python ni Node, ejecutar con PowerShell nativo de Windows (no requiere instalar nada)
+echo [*] Python o Node no detectados. Ejecutando con PowerShell nativo de Windows...
+powershell -ExecutionPolicy Bypass -File "%~dp0trendy_monitor.ps1" %*
+
+:end
 if "%1"=="--once" (
+    echo.
+    echo Revision unica completada.
+) else if "%1"=="-Once" (
     echo.
     echo Revision unica completada.
 ) else (
