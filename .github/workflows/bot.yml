@@ -1,0 +1,28 @@
+name: Monitor Trendy API
+
+on:
+  schedule:
+    # Se ejecuta cada 10 minutos
+    - cron: '*/10 * * * *'
+  workflow_dispatch: # Permite ejecutarlo manualmente desde un botón en GitHub
+
+jobs:
+  ejecutar-bot:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Clonar el código
+      uses: actions/checkout@v3
+
+    - name: Configurar Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Instalar dependencias
+      run: |
+        pip install requests 
+        # (Añade aquí otras librerías si las usas)
+
+    - name: Ejecutar el script
+      run: python script.py
